@@ -8,9 +8,39 @@
    background-color: #1f2937;
 }
 
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.header {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.navbar {
+    height: 60px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar .container .nav {
+    display: flex;
+}
+
 .header_logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.nav {
+    list-style-type: none;
 }
 
 ul li a, .hero_subtext {
@@ -22,10 +52,29 @@ ul li a {
     text-decoration: none;
 }
 
+.container .nav li a:hover {
+    color: lightblue;
+}
+
+.container .nav li {
+    margin-left: 20px;
+}
+
+.hero {
+    min-height: 400px;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .hero-main-text {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    line-height: 1.2;
 }
 
 .btn, .sign-up_box {
@@ -36,10 +85,22 @@ ul li a {
     color: #f9faf8;
 }
 
+.hero-img {
+    max-width: 400px;
+}
+
+.boxes .container {
+    display: flex;
+}
+
 .information {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+}
+
+.img-box_container {
+    display: flex;
 }
 
 .quote_section {
