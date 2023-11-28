@@ -10,7 +10,7 @@
 
 .container {
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 8em;
 }
 
 .header {
@@ -62,12 +62,14 @@ ul li a {
 
 .hero {
     min-height: 400px;
+    display: flex;
 }
 
 .hero .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex: 1;
 }
 
 .hero-main-text {
@@ -90,7 +92,7 @@ ul li a {
 }
 
 .boxes .container {
-    display: flex;
+    /* display: flex; */
 }
 
 .information {
@@ -101,6 +103,17 @@ ul li a {
 
 .img-box_container {
     display: flex;
+    justify-content: space-between;
+}
+
+.img-box_container .img-box {
+    flex: 1;
+    margin: 20px 10px;
+    padding: 15px 20px;
+}
+
+.img-box_container .img-box img {
+    border-radius: 10px;
 }
 
 .quote_section {
@@ -112,6 +125,10 @@ ul li a {
     font-weight: light;
     font-style: italic;
     color: #1f2937;
+}
+
+.quote figcaption {
+    
 }
 
 .footer {
