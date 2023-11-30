@@ -1,7 +1,13 @@
+@import url('https://api.fonts.coollabs.io/css?family=Muli&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
 }
 
 .header, .footer {
@@ -13,11 +19,6 @@
     padding: 0 8em;
 }
 
-.header {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-}
 
 .navbar {
     height: 60px;
@@ -116,10 +117,6 @@ ul li a {
     max-height: 250px;
 }
 
-.boxes .container {
-    /* display: flex; */
-}
-
 .information_box {
     display: flex;
     justify-content: center;
@@ -152,6 +149,8 @@ ul li a {
 
 .img-box_container .img-box p {
     text-align: center;
+    font-weight: 300;
+    font-family: roboto;
 }
 
 .quote_section {
@@ -187,7 +186,6 @@ ul li a {
     width: 73rem;
     height: 10rem;
     align-items: center;
-    gap: 9em;
 }
 
 .sign-up_box_text h5 {
