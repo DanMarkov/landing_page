@@ -92,18 +92,28 @@ ul li a {
     line-height: 1.2;
 }
 
+.hero_subtext {
+    margin-bottom: 1rem;
+}
+
 .btn, .sign-up_box {
     background-color: #3882f6;
 }
 
 .btn {
     color: #f9faf8;
-    width: 112px;
-    height: 40px;
+    width: 119px;
+    height: 37px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 .hero-img {
-    max-width: 500px;
+    max-width: 600px;
+    max-height: 250px;
 }
 
 .boxes .container {
@@ -114,6 +124,7 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2em;
 }
 
 .information {
@@ -136,6 +147,7 @@ ul li a {
 
 .img-box_container .img-box img {
     border-radius: 10px;
+    border: 5px solid #3882f6;
 }
 
 .img-box_container .img-box p {
@@ -154,7 +166,7 @@ ul li a {
     display: flex;
     flex-direction: column;
     gap: .1rem;
-
+    width: 62rem;
 }
 
 .quote figcaption, figcaption cite {
@@ -169,18 +181,31 @@ ul li a {
 
 .sign-up_box {
     margin: 3rem;
-    padding: 2rem 1rem;
     display: flex;
     justify-content: space-around;
+    border-radius: 10px;
+    width: 73rem;
+    height: 10rem;
+    align-items: center;
+    gap: 9em;
 }
 
 .sign-up_box_text h5 {
     color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 
 .sign-up_box_text p {
     color: #e5e7eb;
+    font-size: 18px;
+}
+
+.btn-sign_up {
+    border: 2px solid;
+    height: 4rem;
+    width: 11rem;
 }
 
 .footer {
